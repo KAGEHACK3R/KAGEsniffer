@@ -1,0 +1,5 @@
+# Dépendances pour KAGEsniffer avec GeoLite2-City.mmdb
+scapy==2.5.0           # Capture et analyse réseau
+geoip2==4.8.0          # Enrichissement GeoIP
+maxminddb==2.6.0       # Lecture des fichiers MMDB
+netifaces==0.11.0      # Validation des interfaces réseau
