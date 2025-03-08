@@ -30,7 +30,12 @@ Un sniffer réseau avancé avec interface graphique, détection d’anomalies et
 - Système avec libpcap (installé via `sudo apt install libpcap-dev` sur Linux).
 
 ## Installation
+veillez dezipper GeoLite2-City.mmdb.zip puis l'enregistrez dans le dossier KAGEsniffer
 1. Clonez le dépôt :
    ```bash
    git clone https://github.com/KAGEHACKER/KAGEsniffer.git
    cd KAGEsniffer
+
+   Comment lancer le programme
+   pip install -r requirements.txt
+   python3 sniffer.py
